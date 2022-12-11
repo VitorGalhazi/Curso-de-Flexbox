@@ -4,7 +4,6 @@ body, h1, h2, p, ul, a{
 }
 
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #222222;
 }
 
@@ -25,4 +24,66 @@ img{
     box-sizing: border-box;
 }
 
-/*  */
+/* Superinfo */
+
+.superinfo-bg{
+    background-color: #122ab2;
+    color: white;
+}
+
+.superinfo{
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.superinfo p, .superinfo  a{
+    margin: 0 10px 10px 10px;
+}
+
+.superinfo a{
+    color: white;
+}
+
+/* Menu */
+
+.menu-bg{
+    background: #2c70ff;
+}
+
+.menu{
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-logo{
+    font-size: 2.25em;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.menu a{
+    color: white;
+}
+
+.menu-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-nav a{
+    font-size: 1.25em;
+    display: block;
+    padding: 10px;
+}
+
+.menu-nav a:hover{
+    color:#122ab2;
+}
